@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Rafael Pacheco - Assignment 01 - About me page -->
+<head>
+	<meta charset="utf-8">
+		<title>About me - Rafael</title><!--this should not be indented this much, it is not nested inside the meta tage therefore it should be aligned with it-->
+		<style> 
+			header {/*why no styles in here?*/
+			}
+			nav {
+				background-color: white;
+				width: 100%;
+			}
+			ul.header {
+				padding-left: 20px;
+			}
+			li.header {
+				align: left;
+				display: inline-block;
+				padding: 10px;
+				color: #272727;
+			}
+			body {
+				background-color: #30B2A3; 
+				font-family: Tahoma, Helvetica sans-serif;
+				padding: 0;
+				margin: 0;
+			}
+			h1 {
+				color: #F55B16;
+			}
+			h2 {
+				color: #595959;
+			}
+			h3 {
+				color: #595959;
+			}
+			p {
+				font-family: Arial, sans-serif;
+				color: #595959;
+			}
+			li.social {
+				display: inline;
+				padding: 10px;
+			}
+			a {
+				text-decoration: none;
+				color: #272727;
+			}
+			footer {
+				background-color: #595959; 
+				position: absolute;
+				width: 100%;
+				bottom: 10px;
+				padding-top: 20px
+			}
+			div.div-uno{
+				padding-left: 20px;
+				padding-right: 10px;
+			}
+			div.div-dos {
+				padding-left: 20px;
+				padding-right: 10px;
+			}
+			img.me {
+				border-radius: 80%;
+				padding-left: 10px;
+				padding-right: 20px;
+			}
+		</style> <!--where did you get these styles and the link below?  You need to write all of your own code!-->
+		<!--<link rel="stylesheet" href="primer_intento">-->
+</head>
+<body>
+<header>
+	<nav>
+		<ul class="header">
+			<li class="header">About me</li>
+			<li class="header"> My work </li>
+			<li class="header"> Contact </li>
+		</ul>
+		</nav><!--watch your indenting-->
+</header>
+	<div class="div-uno">
+
+		<img class="me" src="About_me_rafael_pacheco.jpg" width="200" alt="Rafael Pacheco" align="left">
+
+		<h1> Rafael<br>Pacheco</h1><!--don't use br inside an H1 this is not the proper use of either tag-->
+		<h3> Future Interactive Media Manager</h3><!--best practices would mean using an h2 in the document before the fitst use of an h3-->
+		
+		<p>My name is <span style="color:#F55B16; font-weight:bold">Rafael Pacheco</span> and I am a student at Centennial College. I am taking the INTERACTIVE MEDIA MANAGEMENT program to become a specialist in UX design and website development.
+		</p>
+		<p>I have over 5 years of experience in marketing and advertising and I am currently focusing on the entertainment industry. In the mid/long term I see myself working in video games and/or animation companies. I made that decision based on my passion for animated shows and video games. However.</p>
+		<p>I am an entrepreneur and I am planning on having my own business in the tech industry and in the retail industry.
+		This website is my first attempt at web development and it looks this way for a reason. I want to improve my skills and create a way much better version of this.
+		</p>
+	</div>
+	<hr>
+	<div class="div-dos">
+		<h2>Follow Me on Social Media</h2>
+		<ul class="social"> 
+		    <!--<span> <img src="twitter.png" width="40px" align="top"></span>-->
+			<li class="social"><a class="social" href="https://twitter.com/RandomRafa" target="_blank"><img src="twitter.png" width="40" alt="Twitter" align="top"></a></li>
+			<li class="social"><a class="social" href="http://randomrafa.tumblr.com/" target="_blank"><img src="tumblr.png" width="35" alt="Tumblr"></a></li>
+			<li class="social"><a class="social" href="https://ca.linkedin.com/in/rafaelpacheco17" target="_blank"><img src="linkedin.png" width="35" alt="LinkedIN"></a></li>
+		</ul>
+	</div>
+</body>
+</html>
