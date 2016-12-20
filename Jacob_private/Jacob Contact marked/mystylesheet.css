@@ -1,0 +1,13 @@
+body {background-color: grey;}
+h1 {font-family:cursive;background-color:orange;text-align:center}
+ul {list-style-type:none}
+h2 {font-family:cursive; font-size:200%}
+p {font-size: 150%}
+li {color:white}
+input[type=text] {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 12px 0;
+     box-sizing: border-box;
+}
+form {font-style: bold}

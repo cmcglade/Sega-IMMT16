@@ -1,0 +1,151 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#95D0E9;
+}
+
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+
+}
+input[type=button], input[type=reset] 
+{
+    width: 20%;
+    background-color:#95D0E9;
+    border: solid;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+     cursor: pointer;
+     transition: 0.5s;
+
+}
+
+
+
+input[type=text], select 
+{
+    width: 20%;
+    padding: 15px 20px;
+    margin: 8px,10px;
+    display: inline-block;
+    font-family:sans-serif; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self:center;
+    
+}
+
+
+input[type=email], select
+{
+     width: 20%;
+    padding: 15px 20px;
+    margin: 8px,10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self: center
+    
+
+}
+
+input[type=Password], select
+{
+     width: 20%;
+    padding: 15px 20px;
+    margin: 8px,10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    align-self:center;
+    
+
+}
+{
+tr:nth-child(even) {background-color: #f2f2f2
+}
+textarea {
+    
+    width: 20%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition-property: 70%
+    font-family: sans-serif;
+
+    }
+
+
+input[type=submit] {
+    width: 20%;
+    background-color: #95D0E9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 10;
+  right: 2;
+
+}
+ 
+{
+    background-color: #FFF3BA;
+}
+
+div {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.classtable 
+{
+    border:none;
+}
+
+

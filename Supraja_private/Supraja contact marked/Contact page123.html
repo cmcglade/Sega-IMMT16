@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+
+<body>
+<link rel="stylesheet" type="text/css" href="Contact page.css">
+ 
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#About">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+<li><a href="#Portfolio">Portfolio</a></li>
+</ul>
+ <center>
+
+<div>
+  
+  <form method="POST" target="_blank" onsubmit="try {return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);} catch (e) {return false;}"><!--you've got some code in this form that we didn;t cover in class and some significant things missing.  the form needs to submit the information in the fields into
+    the same page or another page.  also not sure what you mean by contact details as a field, should have included a phone number field per the assignment.  the script at the bottom here is a javascript script, not php.  you also need to oay attentuon to details in the assignment such as validating your code and submitting a screen grab of the validation -->
+  
+
+
+    <label for="fname">First Name</label> 
+    <input type="text" id="fname" name="firstname"><br>
+
+  
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname"><br>
+
+    <label for="lname">Contact Details</label>
+    <input type="text" id="Contact" name="Contact"> <br>
+
+    <label for="lname">Email Id</label>
+    <input type="text" id="Contact" name="Contact"> <br>
+    <label for="lname">Password</label> 
+    <input type="password" id="password" name="Contact"> <br>
+    
+    <label for="country">Select your Country </label>
+    <select id="country" name="country"><br>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="India">India</option>
+      <option value="Africa">Canada</option>
+      <option value="usa">Brazil</option>
+      
+ 
+    </select>
+    
+ <br>
+  <textarea>Entre your text here</textarea><br>
+    <input type="submit" name="submit"><br>
+    <input type="reset" value="Reset"><br>
+    
+ </centre>
+  </form>
+
+</div>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myReset").value;
+    document.getElementById("demo").innerHTML = x;
+}
+
+
+
+</script>
+
+</body>
+</html>
+

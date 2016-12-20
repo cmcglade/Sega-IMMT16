@@ -1,0 +1,31 @@
+
+        body {
+            font-family: 'Gotham Rounded', serif;
+            background-color: #e9efff;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 30px;
+            background-color: #ffffff;
+        }
+        
+        h2 {
+            font-size: 24px;
+            background-color: #ffffff;
+        }
+        
+        div {
+            margin: 50px;
+        }
+        
+        img {
+            margin-left: 50px;
+        }
+        
+        p {
+            font-size: 15px;
+            font-size: normal;
+            font-weight: normal;
+        }
+        
