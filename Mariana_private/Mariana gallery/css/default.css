@@ -1,0 +1,200 @@
+body {
+	background: linear-gradient(to top, rgb(59,59,59), rgb(35,35,35));
+	height: auto;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    max-width: 60px;
+    height: auto;
+}
+
+.list-inline {
+    padding: 10px;
+	float: left;
+    border: 0px;
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.list-inline a {	
+	font-weight: 600;
+	color: #def8de;
+	font-size: 25px;
+    text-decoration: none;    
+}
+
+#myNavbar {
+    position: relative;
+    margin-top: 1.5%;
+}
+
+#myNavbar a {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+	margin-top: 5px;
+    text-decoration: none;
+    color: #def8de;
+}
+
+#myNavbar a:hover {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+	margin-top: 1%;
+    text-decoration: none;
+    color: #f8dee0;
+}
+
+
+h1 {
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 5%;
+	font-weight: 600;
+	color: #ede6e6 ;
+	font-size: 35px;
+	text-align: left;
+}
+
+h2 {
+	font-weight: 600;
+    color: #f8dee0;
+	font-size: 25px;
+	text-align: left;
+    line-height: 5px;
+}
+
+h3 {
+	font-weight: 200;
+	color: #f8dee0;
+	font-size: 18px;
+	text-align: left;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(202,239,206, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+#form_response{
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+form{
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+input {
+    width: 100%;
+    padding: 6px 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: transparent;
+    
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+input[type=submit]{
+    width: 49%;
+    padding: 6px 8px;
+    margin: 4px 0;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover{
+    background-color: #4CAF50; 
+    color: white;
+}
+
+input[type=reset] {
+    width: 49%;
+    padding: 6px 8px;
+    margin: 4px 0;
+    background-color: transparent;
+    color: #666666;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+input[type=reset]:hover {
+    
+}
+
+textarea {
+    width: 100%;
+    padding: 6px 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    background-color: transparent;
+    
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid gray;
+}
+
+p {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: #999999;
+}
+
+div.instagram_icon {
+	position: absolute;
+	left: 30%;
+}
+
+div.linkedin_icon {
+	position: absolute;
+	right: 30%;
+}
+
+li {
+    font-size: 16px;
+    color: aliceblue;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Raf the assignment was to use either the jquery we learned in class or the bootstrap styles we learned in class, to use at least 4 of your own photographs.  It's not ok to use code you have copied from somewhere else-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <title>Galeria de fotos</title>
+</head>
+<body>
+<nav>
+        <ul class="header">
+            <li class="header"> About me </li>
+            <li class="header"> My work </li>
+            <li class="header"> Contact </li>
+        </ul>
+        </nav>
+    <!-- Image Gallery -->
+    <div class="gallery-photos clearfix">
+    <!-- Photo Thumbnails -->
+        <div class="photo-thumbnails">
+            <!--1st Image-->
+            <div class="thumbnail current">
+                <div class="thumbnail-inner"><img src="img/img1.jpg" alt="Profile" /></div>
+            </div>
+            <!-- 2nd Image -->
+            <div class="thumbnail">
+                <div class="thumbnail-inner"><img src="img/img2.jpg" alt="Logo" /></div>
+            </div>
+            <!--3rd Image-->
+            <div class="thumbnail">
+                <div class="thumbnail-inner"><img src="img/img3.jpg" alt="Logo 02" /></div>
+            </div>
+            <!-- 4th Image -->
+            <div class="thumbnail">
+                <div class="thumbnail-inner"><img src="img/img5.jpg" alt="Elf degree" /></div>
+            </div>
+        </div>
+            <!--Display on Big Picture-->
+        <div class="big-frame">
+                <div id="big-photo" class="big-photo"><img src="img/img1.jpg" alt="" /></div>
+            </div>
+    </div>
+            <hr>
+<!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- JS Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

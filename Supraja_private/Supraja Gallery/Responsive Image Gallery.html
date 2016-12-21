@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<!--the assignment was to use either the jquery we learned in class or the bootstrap classes, you have not used either.  it's not ok to use code that you didn;t write yourself.  this code has been used by a number of people in the class-->
+
+<head>
+  
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+ 
+
+<link rel="stylesheet" type="text/css" href="css/Stylesheet.css">
+<!--you need to close your head tag-->
+
+<body style="background:#efebbd"><!--you should not be putting styles in your html, all styles should go in your stylsheet-->
+<div style="background-image: :#ffffff; margin:100px; width:auto;">
+<h2 style="text-align:center"> My photography portfolio</h2>
+
+
+<div class="gallery-photos">
+  <div class="photo-thumbnails">
+    <div class="thumbnail current">
+      <div class="thumbnail-inner"> Nature<img src="img/1.jpg" alt="" /> </div>
+    </div>
+    <div class="thumbnail">
+      <div class="thumbnail-inner"> Buddha <img src="img/2.jpg" alt="" /> </div>
+    </div>
+    <div class="thumbnail">
+      <div class="thumbnail-inner"> Food Photography <img src="img/3.jpg" alt="" /> </div>
+    </div>
+    <div class="thumbnail">
+      <div class="thumbnail-inner"> Dragon fly <img src="img/4.jpg" alt="" /> </div>
+    </div>
+    
+  </div>
+  <div id="big-photo" class="big-photo"> <img src="img/1.jpg" alt="" /> </div>
+</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  
+  jQuery('.photo-thumbnails .thumbnail').click(function() {
+    // Setting class "current" to the thumbnail that was clicked.
+    jQuery('.photo-thumbnails .thumbnail').removeClass('current');
+    jQuery(this).addClass('current');
+    // Getting "src" attribute of the image that was clicked.
+    var path = jQuery(this).find('img').attr('src');
+    // Setting "src" attribute of the big image.
+    jQuery('#big-photo img').attr('src', path);
+  });
+      
+});  
+</script>
+
+
+
+</body>
+</head>
+</html>

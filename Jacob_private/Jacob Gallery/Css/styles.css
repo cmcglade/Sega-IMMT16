@@ -1,0 +1,72 @@
+body { background-color: grey; 
+       font-family: Arial, sans-serif;
+        }
+/* This code has passed error free through a validator */
+  p {font-style: italic; /*watch your formatting*/
+     font-weight: bold;
+}
+
+
+h1  { font-size:450%; 
+       text-shadow: 3px 3px #F4ECF7 ;
+}
+h3  { color: blue }
+h2  { text-shadow: 3px 3px #F4ECF7;
+font-size: 60px; }
+h5  { 
+font-size: 40px; }
+
+#header {background-color: orange ;
+   margin: 10px;  
+   height: 90px;
+   border-radius:5px;
+  }  
+  
+
+
+.bgimage {
+background-image: url('../images/MyPhoto.jpg');
+background-position: center center;
+background-size: cover;
+height: 300px;
+}
+
+.jumbotron {
+   background-color: #696969 ;
+}
+
+.btn-info {
+   background-color: red ;
+   border-color: black ;
+   opacity: 0.4;
+}
+
+.btn-info:hover {
+    cursor: not-allowed;
+}
+
+.btn-BuyNow {
+    background-color: blue ;
+    border-color: black;
+    color:white;
+}
+
+.btn-BuyNow:hover {
+   background-color: green;
+   border-color: black;
+   color:white;
+}
+
+img {
+
+   max-width: 100%;
+   max-height: 100%;
+}
+
+h2  {
+
+   max-width: 100%;
+   max-height: 100%;
+
+
+}
